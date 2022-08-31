@@ -6,5 +6,22 @@
 
 ## 探索性分析
 * 相關係數圖
-![image](https://github.com/patty0604/bigdata/blob/main/pictures/%E5%B7%A8%E9%87%8F%E8%B3%87%E6%96%99_%E6%8E%A2%E7%B4%A2%E6%80%A7%E5%88%86%E6%9E%90_1_%E7%9B%B8%E9%97%9C%E4%BF%82%E6%95%B8.PNG)
+![image](https://github.com/patty0604/bigdata/blob/main/pictures/%E5%B7%A8%E9%87%8F%E8%B3%87%E6%96%99_%E6%8E%A2%E7%B4%A2%E6%80%A7%E5%88%86%E6%9E%90_1_%E7%9B%B8%E9%97%9C%E4%BF%82%E6%95%B8.PNG)<br>
+
+Avg_Open_To_Buy(額度與餘額之間的差額平均) 是從 Credit_Limit(信用卡額度)衍生而來，因此兩者的相關係數為1<br>
+
+* 客戶背景分析_性別
+![image](https://github.com/patty0604/bigdata/blob/main/pictures/%E5%B7%A8%E9%87%8F%E8%B3%87%E6%96%99_%E6%8E%A2%E7%B4%A2%E6%80%A7%E5%88%86%E6%9E%90_1_%E5%AE%A2%E6%88%B6%E8%83%8C%E6%99%AF%E5%88%86%E6%9E%90.PNG)<br>
+
+  * 客戶流失率：未流失客戶有84%，流失客戶有16%
+  * 客戶男女比率：性別是均勻分佈的。
+ 
+* 客戶背景分析_教育程度、婚姻狀況與收入類別
+![image](https://github.com/patty0604/bigdata/blob/main/pictures/%E5%B7%A8%E9%87%8F%E8%B3%87%E6%96%99_%E6%8E%A2%E7%B4%A2%E6%80%A7%E5%88%86%E6%9E%90_1_%E5%AE%A2%E6%88%B6%E8%83%8C%E6%99%AF%E5%88%86%E6%9E%90.PNG)<br>
+
+  * 教育程度Graduate – 研究所佔人數比最多、Doctorate – 博士佔比人數最低
+  * 婚姻狀況已婚比例最多，再來是單身，佔比最少的是離婚(這家銀行將近一半的客戶都是已婚人士，另一半客戶幾乎都是單身人士，另外只有7%的客戶離婚了。)
+  * 收入類別比例最高的是小於40k(35.2%)、最低的是120k以上的(7.18%)
+
+
 
